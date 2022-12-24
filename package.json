@@ -4,7 +4,8 @@
   "description": "A simple npm test project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  },
-  "scripts": {
-    "start": "nodemon src/index.js"
   }
 }
